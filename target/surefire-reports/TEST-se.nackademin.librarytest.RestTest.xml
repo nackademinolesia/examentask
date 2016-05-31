@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="82" failures="0" name="se.nackademin.librarytest.RestTest" time="89.706" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/i386"/>
+    <property name="java.vm.version" value="25.72-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/olesia/NetBeansProjects/examentask"/>
+    <property name="java.runtime.version" value="1.8.0_72-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/olesia/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="3.19.0-25-generic"/>
+    <property name="user.home" value="/home/olesia"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="olesia"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/olesia/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_72"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPutNegativ1" time="2.973"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPutNegativ2" time="1.065"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPutNegativ3" time="1.11"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPutNegativ4" time="1.048"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoanByIdNegativ" time="1.042"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAllAuthors" time="1.062"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansOfUserOfBook" time="1.177"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostLoans" time="1.158"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPost" time="1.052"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostLoansNegativ1" time="1.042"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostLoansNegativ2" time="1.099"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostLoansNegativ4" time="1.149"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostLoansNegativ5" time="1.102"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansOfUserOfBookNegativ1" time="1.174"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansOfUserOfBookNegativ2" time="1.109"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUserNegativ1" time="1.048"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUserNegativ2" time="1.06"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUserNegativ3" time="1.069"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUserNegativ4" time="1.13"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUserNegativ5" time="1.017"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetBooksOfAuthorNegativ" time="1.03"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testUpdateBooksAuthors" time="1.085"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteLoanByNumberNegativ" time="1.04"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByBookId" time="1.095"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteLoanByNumber" time="1.093"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAllBooks" time="1.118"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAllLoans" time="1.148"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAllUsers" time="1.074"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoanById" time="1.095"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetUserByNumberNegativ1" time="1.026"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteUserByNumberNegativ" time="1.112"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPostNegativ1" time="1.073"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPostNegativ2" time="1.053"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPostNegativ3" time="1.039"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPostNegativ4" time="1.032"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByUserId" time="1.146"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetBookByNumberNegativ1" time="1.034"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutUser" time="1.066"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testBookPut" time="1.088"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutAuthor" time="1.061"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testLoanPut" time="1.087"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetBooksOfAuthor" time="1.02"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUserNegativ1" time="1.075"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUserNegativ2" time="1.037"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUserNegativ3" time="1.018"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUserNegativ4" time="1.027"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUserNegativ5" time="1.062"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAuthorById" time="1.025"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByBookIdNegativ1" time="1.034"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByBookIdNegativ2" time="1.043"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteBookByNumber" time="1.118"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteAuthorById" time="1.062"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetBookByNumber" time="1.047"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testLoanPutNegativ1" time="1.086"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testLoanPutNegativ2" time="1.082"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testLoanPutNegativ3" time="1.099"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testLoanPutNegativ4" time="1.136"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutAuthorNegativ1" time="1.024"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutAuthorNegativ2" time="1.051"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPutAuthorNegativ3" time="1.068"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostAuthor" time="1.039"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostAuthorNegativ1" time="1.053"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostAuthorNegativ2" time="1.015"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostAuthorNegativ3" time="1.028"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAuthersOfBook" time="1.021"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAuthersOfBookNegativ" time="1.018"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testUpdateBooksAuthorsNegativ1" time="1.073"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testUpdateBooksAuthorsNegativ2" time="1.083"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testUpdateBooksAuthorsNegativ3" time="1.025"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByUserIdNegativ1" time="1.035"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetLoansByUserIdNegativ2" time="1.068"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteAuthorByIdNegativ1" time="1.091"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteAuthorByIdNegativ2" time="1.021"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testPostUser" time="1.05"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteBookByNumberNegativ" time="1.087"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testAddAutherToBookNegativ1" time="1.046"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testAddAutherToBookNegativ2" time="1.077"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testAddAutherToBookNegativ3" time="1.052"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testDeleteUserByNumber" time="1.063"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testAddAutherToBook" time="1.112"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetAuthorByIdNegativ" time="1.017"/>
+  <testcase classname="se.nackademin.librarytest.RestTest" name="testGetUserByNumber" time="1.045"/>
+</testsuite>
